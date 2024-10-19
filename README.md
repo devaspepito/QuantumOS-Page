@@ -1,16 +1,16 @@
-1. Clonar el repositorio
+## 1. Clonar el repositorio
 
 ```
 https://github.com/devaspepito/QuantumOS-Page
 ```
 
-2. Navegar hacia el directorio
+## 2. Navegar hacia el directorio
 
 ```
 cd QuantumOS-Page/
 ```
 
-2. Ejecutar el proyecto e instalar dependencias necesarias
+## 3. Ejecutar el proyecto e instalar dependencias necesarias
 
 ```
 yarn & yarn dev
