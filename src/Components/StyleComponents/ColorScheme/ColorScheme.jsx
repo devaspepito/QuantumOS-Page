@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { css } from "../../../../styled-system/css";
+import { styled } from "../../../../styled-system/jsx";
+
+const ChangeThemeButton = styled.button`
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+`;
 
 export const ColorScheme = () => {
   const [theme, SetTheme] = useState("dark");
@@ -19,16 +26,6 @@ export const ColorScheme = () => {
   };
 
   return (
-    <button
-      onClick={toggleTheme}
-      className={css({
-        color: "whitesmoke",
-        fontWeight: "bold",
-        margin: "2",
-        cursor: "pointer",
-      })}
-    >
-      Change Theme
-    </button>
+    <ChangeThemeButton onClick={toggleTheme}>Change Theme</ChangeThemeButton>
   );
 };
