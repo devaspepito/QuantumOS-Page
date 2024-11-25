@@ -15,3 +15,11 @@ cd QuantumOS-Page/
 ```
 yarn & yarn dev
 ```
+
+```
+pnpm install & pnpm run dev
+```
+
+```
+npm install & npm run dev
+```
