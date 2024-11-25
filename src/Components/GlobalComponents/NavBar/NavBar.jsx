@@ -1,31 +1,35 @@
 //import React from "react";
-import { ColorScheme } from "../../StyleComponents/ColorScheme/ColorScheme";
+import { Link } from 'react-router-dom';
 import {
-  ListStyled_1,
+  ListNavBarStyled,
   Navigation,
-  UnorderedList,
+  UnorderedListNavBar,
   Header,
-} from "../Modules/StyledComponents";
+} from "../../CssModules/Modules/StyledComponents";
+import { Switch } from "../../StyleComponents/ColorScheme/SwitchTheme";
 
 export const NavBar = () => {
   return (
     <Header>
       <Navigation>
-        <UnorderedList>
-          <ListStyled_1>
-            <a href="#">Home</a>
-          </ListStyled_1>
-          <ListStyled_1>
-            <a href="#">About</a>
-          </ListStyled_1>
-          <ListStyled_1>
-            <a href="#">Contact Us</a>
-          </ListStyled_1>
-          <ListStyled_1>
-            <a href="#">Support Us</a>
-          </ListStyled_1>
-        </UnorderedList>
-        <ColorScheme />
+        <UnorderedListNavBar>
+          <ListNavBarStyled>
+            <Link to="/">Home</Link>
+          </ListNavBarStyled>
+          <ListNavBarStyled>
+            <Link to="/about">About</Link>
+          </ListNavBarStyled>
+          <ListNavBarStyled>
+            <Link to="/contact-us">Contact Us</Link>
+          </ListNavBarStyled>
+          <ListNavBarStyled>
+            <Link to="/support-us">Support Us</Link>
+          </ListNavBarStyled>
+          <ListNavBarStyled>
+            <Link to="/download">Download</Link>
+          </ListNavBarStyled>
+        </UnorderedListNavBar>
+        <Switch />
       </Navigation>
     </Header>
   );
