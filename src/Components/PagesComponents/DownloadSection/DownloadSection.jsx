@@ -11,7 +11,6 @@ export const DownloadSection = () => {
         <AnimatedCardArm64 />
         <AnimatedCardArm />
       </div>
-      <Footer />
     </>
   );
 };
