@@ -14,9 +14,6 @@ export const Navigation = styled.nav`
   justify-content: center;
   margin: 18px auto;
   border-radius: 12px;
-  border-width: 2px;
-  border-color: whitesmoke;
-  border-style: solid;
   position: sticky;
 `;
 
@@ -30,5 +27,5 @@ export const UnorderedListNavBar = styled.ul`
 
 export const Header = styled.header`
   width: 100%;
-  height: 10%;
+  /*height: %;*/
 `;
