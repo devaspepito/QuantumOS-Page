@@ -2,6 +2,7 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
+
   & ol {
     width: 80%;
     background-color: #324b77;
@@ -13,8 +14,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px whitesmoke solid;
     border-radius: 10px;
+
     & li {
       margin: 5px;
     }
