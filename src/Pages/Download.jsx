@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Section } from "../Styles/Styled.jsx";
+import { DownloadSection } from "../Components/PagesComponents/DownloadSection/DownloadSection";
 
 export const Download = () => {
   return (
-    <div>
-      <h1>Download section</h1>
-    </div>
-  )
-}
-
+    <>
+      <Section>
+        <h1>Download section</h1>
+        <DownloadSection />
+      </Section>
+    </>
+  );
+};
