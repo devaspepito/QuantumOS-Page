@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Section } from "../Styles/Styled.jsx";
 
 export const SupportUs = () => {
   return (
-    <div>
-      <h1>Support Us section</h1>
-    </div>
-  )
-}
-
+    <>
+      <Section>
+        <h1>Support Us section</h1>
+      </Section>
+    </>
+  );
+};
