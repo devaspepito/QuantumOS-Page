@@ -3,7 +3,7 @@ import { styled } from "/styled-system/jsx";
 export const DownloadContianer = styled.div`
   height: 440px;
   width: 300px;
-  background-color: beige;
+  background-color: #324b77;
   display: flex;
   flex-direction: column;
   align-items: center;
