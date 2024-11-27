@@ -8,8 +8,10 @@ export const Switch = () => {
     const rootDiv = document.getElementById("root");
     if (theme === "dark") {
       rootDiv.style.backgroundColor = "#001020";
+      rootDiv.style.color = "whitesmoke";
     } else {
       rootDiv.style.backgroundColor = "#d0d8db";
+      rootDiv.style.color = "black";
     }
   }, [theme]);
 
