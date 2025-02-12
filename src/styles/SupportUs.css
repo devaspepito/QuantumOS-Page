@@ -1,0 +1,42 @@
+.supportUsIcon {
+  padding: 1em;
+  margin: 1em;
+
+  & svg {
+    width: 6em;
+    height: 6em;
+  }
+}
+
+.contribute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-59);
+  padding: 0.5em;
+  border-radius: 1em;
+  text-align: center;
+  font-size: 1.3rem;
+  box-shadow: 0px 0px 10px 10px var(--color-59);
+
+  & .donate {
+    width: 6em;
+    height: 34px;
+    font-size: 18px;
+    margin: 10px;
+    background-color: var(--color-45);
+    color: var(--color-60);
+    border: 3px solid var(--color-40);
+    border-radius: 10px;
+    transition: all ease-in 0.3s;
+  }
+
+  & .donate:hover {
+    border: 3px solid var(--color-15);
+    transition: all ease-out 0.3s;
+    background-color: var(--color-30);
+    color: var(--color-1);
+    box-shadow: 0px 0px 5px 5px var(--color-28);
+    cursor: pointer;
+  }
+}

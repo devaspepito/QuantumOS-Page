@@ -1,0 +1,125 @@
+:root {
+  --color-1: #ffffff;
+  --color-2: #fcfcfc;
+  --color-3: #fafafa;
+  --color-4: #f7f7f7;
+  --color-5: #f5f5f5;
+  --color-6: #f2f2f2;
+  --color-7: #efefef;
+  --color-8: #ededed;
+  --color-9: #eaeaea;
+  --color-10: #e7e7e7;
+  --color-11: #e5e5e5;
+  --color-12: #e2e2e2;
+  --color-13: #dfdfdf;
+  --color-14: #dcdcdc;
+  --color-15: #d9d9d9;
+  --color-16: #d6d6d6;
+  --color-17: #d3d3d3;
+  --color-18: #d0d0d0;
+  --color-19: #cccccc;
+  --color-20: #c8c8c8;
+  --color-21: #c4c4c4;
+  --color-22: #c0c0c0;
+  --color-23: #bcbcbc;
+  --color-24: #b8b8b8;
+  --color-25: #b4b4b4;
+  --color-26: #b0b0b0;
+  --color-27: #acacac;
+  --color-28: #a8a8a8;
+  --color-29: #a3a3a3;
+  --color-30: #9f9f9f;
+  --color-31: #9b9b9b;
+  --color-32: #969696;
+  --color-33: #929292;
+  --color-34: #8e8e8e;
+  --color-35: #898989;
+  --color-36: #858585;
+  --color-37: #808080;
+  --color-38: #7c7c7c;
+  --color-39: #777777;
+  --color-40: #737373;
+  --color-41: #6e6e6e;
+  --color-42: #6a6a6a;
+  --color-43: #656565;
+  --color-44: #616161;
+  --color-45: #5c5c5c;
+  --color-46: #585858;
+  --color-47: #535353;
+  --color-48: #4f4f4f;
+  --color-49: #4a4a4a;
+  --color-50: #464646;
+  --color-51: #414141;
+  --color-52: #3d3d3d;
+  --color-53: #383838;
+  --color-54: #343434;
+  --color-55: #2f2f2f;
+  --color-56: #2b2b2b;
+  --color-57: #262626;
+  --color-58: #222222;
+  --color-59: #1d1d1d;
+  --color-60: #000000;
+}
+
+@font-face {
+  font-family: IosevkaTermNerdFontMono-BoldItalic;
+  src: url(/fonts/IosevkaTerm/IosevkaTermNerdFont-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: IosevkaTermNerdFontMono-Bold;
+  src: url(/fonts/IosevkaTerm/IosevkaTermNerdFont-Bold.ttf);
+}
+
+@font-face {
+  font-family: IosevkaTermNerdFontMono-Italic;
+  src: url(/fonts/IosevkaTerm/IosevkaTermNerdFont-Italic.ttf);
+}
+
+@font-face {
+  font-family: IosevkaTermNerdFontMono;
+  src: url(/fonts/IosevkaTerm/IosevkaTermNerdFont-Regular.ttf);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: var(--color-60);
+  color: var(--color-10);
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: "IosevkaTermNerdFontMono-Bold", monospace;
+}
+
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-18);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-50);
+  border-radius: 10px;
+}
