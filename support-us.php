@@ -1,14 +1,22 @@
-// React Imports
-import React from "react";
+<!DOCTYPE html>
+<html lang="en">
 
-// Style Imports
-import "../styles/SupportUs.css";
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support Us - QuantumOS</title>
+  <link href="./src/css/all-content.css" rel="stylesheet">
+  <link href="./src/css/supportUs.css" rel="stylesheet">
+  <link href="./src/css/header.css" rel="stylesheet">
+  <link href="./src/css/footer.css" rel="stylesheet">
+  <link href="./src/css/global.css" rel="stylesheet">
+</head>
 
-export const SupportUs = () => {
-  return (
-    <>
-      <main className="AllContent">
-        <div className="supportUsIcon">
+<body>
+  <div id="root">
+    <?php include 'src/includes/header.php' ?>
+      <main class="AllContent">
+        <div class="supportUsIcon">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -41,15 +49,17 @@ export const SupportUs = () => {
             />
           </svg>
         </div>
-        <div className="contribute">
+        <div class="contribute">
           Únete a nosotros para impulsar el futuro de la personalización y
           optimización. Con tu apoyo, estaremos creando una version de Windows
           innovadora que llevará la experiencia del usuario a un nuevo nivel.
           ¡Cada contribución a través de nuestro Pantreon nos acerca más a hacer
           realidad este emocionante proyecto!
-          <button className="donate">Donate</button>
+          <button class="donate">Donate</button>
         </div>
       </main>
-    </>
-  );
-};
+    <?php include 'src/includes/footer.php' ?>
+  </div>
+</body>
+
+</html>

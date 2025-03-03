@@ -63,22 +63,22 @@
 
 @font-face {
   font-family: IosevkaTermNerdFontMono-BoldItalic;
-  src: url(/fonts/IosevkaTerm/IosevkaTermNerdFont-BoldItalic.ttf);
+  src: url(../../fonts/IosevkaTerm/IosevkaTermNerdFont-BoldItalic.ttf);
 }
 
 @font-face {
   font-family: IosevkaTermNerdFontMono-Bold;
-  src: url(/fonts/IosevkaTerm/IosevkaTermNerdFont-Bold.ttf);
+  src: url(../../fonts/IosevkaTerm/IosevkaTermNerdFont-Bold.ttf);
 }
 
 @font-face {
   font-family: IosevkaTermNerdFontMono-Italic;
-  src: url(/fonts/IosevkaTerm/IosevkaTermNerdFont-Italic.ttf);
+  src: url(../../fonts/IosevkaTerm/IosevkaTermNerdFont-Italic.ttf);
 }
 
 @font-face {
   font-family: IosevkaTermNerdFontMono;
-  src: url(/fonts/IosevkaTerm/IosevkaTermNerdFont-Regular.ttf);
+  src: url(../../fonts/IosevkaTerm/IosevkaTermNerdFont-Regular.ttf);
 }
 
 html,

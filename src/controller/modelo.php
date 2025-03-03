@@ -2,10 +2,10 @@
 include('config.php');
 
 // Crear un nuevo usuario
-function crearUsuario($nombre, $correo, $password, $rol)
+function crearUsuario($nombre, $correo, $password)
 {
   global $conn;
-  $sql = "INSERT INTO people (name, email, passwd, rol) VALUES ('$nombre', '$correo', '$password', $rol)";
+  $sql = "INSERT INTO people (username, email, password) VALUES ('$nombre', '$correo', '$password')";
   return mysqli_query($conn, $sql) ? "Usuario creado correctamente" : "Error al crear el usuario";
 }
 
@@ -27,10 +27,10 @@ function mostrarUsuario($id)
 }
 
 // Iniciar sesión
-function login($email, $password)
+function iniciarSesion($email, $password)
 {
   global $conn;
-  $sql = "SELECT * FROM users WHERE email='$email' AND passwd='$password'";
+  $sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";
   $result = mysqli_query($conn, $sql);
   return mysqli_fetch_assoc($result) ?: "Credenciales incorrectas";
 }
@@ -44,18 +44,18 @@ function verificarRol($id)
   return mysqli_fetch_assoc($result)['rol'] ?? null;
 }
 
-function obtenerProductos()
+function obtenerIsos()
 {
   global $conn;
-  $query = "SELECT * FROM products";
+  $query = "SELECT * FROM isos";
   $result = mysqli_query($conn, $query);
   return mysqli_fetch_all($result, MYSQLI_ASSOC);
 }
 
-function agregarProducto($nombre, $descripcion, $precio)
+function agregarIso($nombre, $descripcion, $precio)
 {
   global $conn;
-  $query = "INSERT INTO products (name, description, price) VALUES ('$nombre', '$descripcion', '$precio')";
+  $query = "INSERT INTO isos (name, description, price) VALUES ('$nombre', '$descripcion', '$precio')";
   mysqli_query($conn, $query);
 }
 

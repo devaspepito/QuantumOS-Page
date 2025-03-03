@@ -1,9 +1,0 @@
-.downloadContainer {
-  width: 100%;
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
