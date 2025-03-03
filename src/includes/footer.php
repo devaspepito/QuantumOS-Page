@@ -8,7 +8,7 @@
             </li>
           </ul>
           <ul class="unorderedListFooter">
-            <p class="title">Downloads</p>
+            <p class="title">Descargas</p>
             <li class="listItemFooter">
               <a href="../../download.php" class="link" target="_blank">
                 QuantumOS-x64
@@ -43,7 +43,7 @@
             </li>
           </ul>
           <ul class="unorderedListFooter">
-            <p class="title">Contact</p>
+            <p class="title">Contactos</p>
 
             <li class="listItemFooter">
               <a
@@ -75,7 +75,7 @@
         </section>
         <hr />
         <section class="secondaryFooter">
-          <div class="footerCopyright">&copy; QuantumOS</div>
+          <div class="footerCopyright">&copy; QuantumOS-2025</div>
           <div class="footerSocialMedia">
             <a href="https://telegram.org" target="_blank">
               <svg

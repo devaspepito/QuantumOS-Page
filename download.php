@@ -20,8 +20,8 @@
         <div class="DownloadContianer">
           <div class="downloadCard">
             <img src="./public/isoFile.svg" alt="iso image download" />
-            <p>QuantumOS for x64 architecture</p>
-            <a class="Btn">
+            <p>QuantumOS para la arquitectura x64</p>
+            <a class="Btn" href="https://sourceforge.net">
               <svg
                 viewBox="0 0 256 256"
                 height="32"

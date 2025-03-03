@@ -8,13 +8,13 @@
     <div class="links">
       <ul class="unorderedListNav">
         <li class="listItemNav">
-          <a href="../../index.php">Home</a>
+          <a href="../../index.php">Inicio</a>
         </li>
         <li class="listItemNav">
-          <a href="../../support-us.php">Support Us</a>
+          <a href="../../support-us.php">Donaciones</a>
         </li>
         <li class="listItemNav">
-          <a href="../../download.php">Downloads</a>
+          <a href="../../download.php">Descargas</a>
         </li>
       </ul>
     </div>

@@ -55,7 +55,7 @@
           innovadora que llevará la experiencia del usuario a un nuevo nivel.
           ¡Cada contribución a través de nuestro Pantreon nos acerca más a hacer
           realidad este emocionante proyecto!
-          <button class="donate">Donate</button>
+          <a class="donate" href="https://ko-fi.com">Donar</a>
         </div>
       </main>
     <?php include 'src/includes/footer.php' ?>
