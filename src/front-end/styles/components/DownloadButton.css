@@ -1,0 +1,30 @@
+.Btn {
+  color: rgba(255, 255, 255, 0.692);
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.397);
+  background: #565656;
+  overflow: hidden;
+  font-size: 0.9rem;
+  font-weight: 600;
+  gap: 8px;
+  border-radius: 5px;
+  margin: 20px 5px;
+  transition: 0.2s;
+  border: 1px solid transparent;
+}
+
+.Btn:hover {
+  border-color: #5a5a5a;
+  background: linear-gradient(to bottom, #484848, #707070, #808080);
+  box-shadow: 0 6px #5a5a5a;
+  transform: translateY(-6px);
+  cursor: pointer;
+}
+
+.Btn:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}

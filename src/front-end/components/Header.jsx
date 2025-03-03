@@ -21,15 +21,6 @@ export const Nav = () => {
                 <Link to="/">Home</Link>
               </li>
               <li className="listItemNav">
-                <Link to="/blog">Blog</Link>
-              </li>
-              <li className="listItemNav">
-                <Link to="/faq">FAQ</Link>
-              </li>
-              <li className="listItemNav">
-                <Link to="/contact-us">Contact Us</Link>
-              </li>
-              <li className="listItemNav">
                 <Link to="/support-us">Support Us</Link>
               </li>
               <li className="listItemNav">

@@ -11,12 +11,13 @@ import "./styles/AllContent.css";
 // Local Imports
 import { Nav } from "./components/Header.jsx";
 import { Footer } from "./components/Footer.jsx";
-import { Blog } from "./pages/Blog.jsx";
-import { ContactUs } from "./pages/ContactUs.jsx";
 import { Download } from "./pages/Download.jsx";
 import { Faq } from "./pages/FAQ.jsx";
 import { Home } from "./pages/Home.jsx";
 import { SupportUs } from "./pages/SupportUs.jsx";
+import { LogIn } from "./pages/LogIn.jsx";
+import { SignUp } from "./pages/SignUp.jsx";
+import { AdminPanel } from "./pages/AdminPanel.jsx";
 
 const root = createRoot(document.getElementById("root"));
 
@@ -26,11 +27,12 @@ root.render(
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<Blog />} />
         <Route path="/faq" element={<Faq />} />
-        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/support-us" element={<SupportUs />} />
         <Route path="/download" element={<Download />} />
+        <Route path="/hdn/login" element={<LogIn />} />
+        <Route path="/hdn/signup" element={<SignUp />} />
+        <Route path="/hdn/admin" element={<AdminPanel />} />
       </Routes>
     </Router>
     <Footer />
